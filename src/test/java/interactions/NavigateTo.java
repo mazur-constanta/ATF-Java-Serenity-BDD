@@ -1,8 +1,9 @@
-package navigation;
+package interactions;
 
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Open;
+import pageObjects.DuckDuckGoHomePage;
 
 public class NavigateTo {
     public static Performable theSearchHomePage() {
